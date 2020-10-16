@@ -1,23 +1,21 @@
-/* Our portfolio */
-.img-all {
-    margin: 0 85px 0 85px;
-}
+@media(max-width: 1440px){
 
-.img{
-	width: 27.5%;
-    float: left;
-    margin-top: 52px;
-}
+	.img-all {
+		padding:0 6% 0 6%;
+	}
+	.img{
+		width: 31.6%;
+		padding: 0;
+		float: left;
+	}
+	.img img {
+		width: 100%;
+	}
+	.img a, .img img{
+		display: block;
+	}
+	.img + .img {
+		margin-left: 2.5%;
+	}
 
-.img img{
-	max-width: 100%;
-	width: 100%;
-}
-
-.img a, .img img{
-	display: block;
-}
-
-.img + .img{
-	margin-left: 2.7%;
 }

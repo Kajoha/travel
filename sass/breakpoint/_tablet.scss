@@ -4,13 +4,23 @@
 		display: none;
 	}
 
-	.img + .img{
-		margin-top: 10px;
+	.img{
+		width: 47%;
+		margin-top: 2.5%;
 	}
 
-	.img{
-		width: 38%;
-		padding: 5%;
+	.img + .img {
+		margin-left: 0;
+	}
+
+	.img a, .img img{
+		display: block;
+		margin: 0;
+		padding: 0;
+	}
+
+	.marg {
+		padding-left: 2%;
 	}
 
 }

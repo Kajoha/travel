@@ -1,0 +1,35 @@
+#top {
+    background-color: #000000;
+}
+
+#topMenu {
+    float: left;
+}
+
+#iconsOne {
+    width: 110px;
+    div {
+        
+    }
+    img{
+		max-width: 100%;
+		width: 100%;
+	}
+}
+
+#nav-list {
+    list-style: none;
+
+    li{
+        float: left;
+    }
+
+    li + li {
+        margin-left: 45px;
+    }
+
+    a {
+        color: #ffffff;
+        text-decoration: none;
+    }
+}

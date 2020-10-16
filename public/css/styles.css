@@ -58,7 +58,7 @@ p {
   margin: 0 85px 0 85px; }
 
 .img {
-  width: 27.5%px;
+  width: 27.5%;
   float: left;
   margin-top: 52px; }
 
@@ -101,12 +101,15 @@ p {
 @media (max-width: 1024px) {
   #nav-list {
     display: none; }
-  .img + .img {
-    margin-left: 10px;
-    margin-top: 10px; }
-  .img {
-    width: 38%;
-    padding: 5%; } }
+  /*.img + .img{
+		margin-left: 10px;
+		margin-top: 10px;
+	}
+
+	.img{
+		width: 38%;
+		padding: 5%;
+	}*/ }
 
 @media (max-width: 767px) {
   .img {

@@ -1,0 +1,99 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif; }
+
+#wrapper {
+  width: 1442px; }
+
+h2 {
+  font-size: 40px;
+  text-transform: uppercase;
+  color: #ffffff; }
+
+h3 {
+  font-size: 30px;
+  text-transform: uppercase;
+  text-align: center; }
+
+p {
+  color: #ffffff;
+  font-size: 18px; }
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table; }
+
+#top {
+  width: 100%;
+  background-color: #000000; }
+
+#topMenu {
+  float: left; }
+
+#iconsOne {
+  float: left;
+  width: 110px; }
+  #iconsOne img {
+    max-width: 100%;
+    width: 100%; }
+
+#nav-list {
+  list-style: none; }
+  #nav-list li {
+    float: left; }
+  #nav-list li + li {
+    margin-left: 45px; }
+  #nav-list a {
+    text-transform: uppercase;
+    color: #ffffff;
+    text-decoration: none; }
+
+#slider img {
+  max-width: 100%;
+  width: 100%; }
+
+/* Our portfolio */
+.img-all {
+  margin: 0 85px 0 85px; }
+
+.img {
+  width: 27.5%px;
+  float: left;
+  margin-top: 52px; }
+
+.img img {
+  max-width: 100%;
+  width: 100%; }
+
+.img a, .img img {
+  display: block; }
+
+.img + .img {
+  margin-left: 2.7%; }
+
+#aboutUs {
+  background-image: url(../../img/bg.jpg); }
+
+#iconsTwo {
+  float: left;
+  width: 50%; }
+  #iconsTwo img {
+    width: 203px;
+    display: block;
+    margin: auto; }
+
+#paragraph {
+  margin-top: 140px;
+  float: left;
+  width: 50%; }
+
+#contact {
+  background-color: #000000; }
+
+#lowMenu li {
+  margin: 50px 0 40px 0; }
+
+#lowMenu img {
+  display: block;
+  margin: auto; }

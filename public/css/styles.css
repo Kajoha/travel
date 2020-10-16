@@ -43,3 +43,25 @@ h3 {
 #slider img {
   max-width: 100%;
   width: 100%; }
+
+/* Our portfolio */
+.img-all {
+  margin: 0 85px 0 85px; }
+
+#unique {
+  margin-top: 52px; }
+
+.img {
+  width: 397px;
+  float: left;
+  margin-top: 52px; }
+
+.img img {
+  max-width: 100%;
+  width: 100%; }
+
+.img a, .img img {
+  display: block; }
+
+.img + .img {
+  margin-left: 39px; }

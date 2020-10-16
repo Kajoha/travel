@@ -1,0 +1,11 @@
+@media(max-width: 767px){
+	.img{
+		width: 100%;
+		padding: 0;
+		float: none;
+	}
+
+	.img + .img{
+		margin-top: 10px;
+	}
+}
